@@ -1,0 +1,168 @@
+
+
+Variables in the tidyset:
+
+-- Group.1: contains the activity names (LAYING, SITTING,STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)  
+
+-- Group.2: contanis the subject ID (1,2..30)
+
+-- tBodyAcc-mean()-X: Mean of the estimated mean value of the body acceleration X-axial signal driven from accelerometer 180 numbers in the interval: (0.222 ...0.301461)
+
+--tBodyAcc-mean()-Y: Mean of the estimated mean value of the body acceleration Y-axial signal driven from accelerometer  180 numbers in the interval: (-0.041 ...-0.001)
+
+--tBodyAcc-mean()-Z: Mean of the estimated mean value of the body acceleration Z-axial signal driven from accelerometer 180 numbers in the interval: (-0.113 ...-0.075)
+
+--tBodyAcc-std()-X: Mean of the estimated standard deviation value of the body acceleration X-axial signal driven from accelerometer 180 numbers in the interval: (-0.9961 ... 0.6269 )
+
+--tBodyAcc-std()-Y: Mean of the estimated standard deviation value of the body acceleration Y-axial signal driven from accelerometer 180 numbers in the interval: (-0.99020 ... 0.61690  )
+
+--tBodyAcc-std()-Z: Mean of the estimated standard deviation value of the body acceleration Z-axial signal driven from accelerometer 180 numbers in the interval: (-0.9877 ... 0.6090) 
+
+--tGravityAcc-mean()-X: Mean of the estimated mean value of the gravity acceleration X-axial signal driven from accelerometer 180 numbers in the interval: (-0.6800  ... 0.9745 )
+
+--tGravityAcc-mean()-Y: Mean of the estimated mean value of the gravity acceleration Y-axial signal driven from accelerometer  180 numbers in the interval: (-0.47990 ... 0.95660)
+
+--tGravityAcc-mean()-Z: Mean of the estimated mean value of the gravity acceleration Z-axial signal driven from accelerometer  180 numbers in the interval: (-0.49510 ... 0.95790 )
+
+--tGravityAcc-std()-X: Mean of the estimated standard deviation value of the gravity acceleration X-axial signal driven from accelerometer 180 numbers in th  interval:( -0.9968 ... -0.8296 )
+
+--tGravityAcc-std()-Y: Mean of the estimated standard deviation value of the gravity acceleration Y-axial signal driven from accelerometer  180 numbers in th  interval:( -0.9942 ... -0.6436 )
+
+--tGravityAcc-std()-Z: Mean of the estimated standard deviation value of the gravity acceleration Z-axial signal  from accelerometer 180 numbers in th  interval:( -0.9910 ... -0.6102 )
+
+--tBodyAccJerk-mean()-X: Mean of the estimated mean value of the body linear  acceleration X-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( 0.04269 ... 0.13020)
+
+--tBodyAccJerk-mean()-Y: Mean of the estimated mean value of the body linear  acceleration Y-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.0386900 ... 0.0568200 )
+
+--tBodyAccJerk-mean()-Z: Mean of the estimated mean value of the body linear  acceleration Z-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.067460 ... 0.038050 )
+
+--tBodyAccJerk-std()-X: Mean of the estimated standard deviation value of the body linear  acceleration X-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9946 ... 0.5443)
+
+--tBodyAccJerk-std()-Y: Mean of the estimated standard deviation value of the body linear  acceleration Y-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9895 ... 0.3553 )
+
+--tBodyAccJerk-std()-Z: Mean of the estimated standard deviation value of the body linear  acceleration Z-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.99330 ... 0.03102 )
+
+--tBodyGyro-mean()-X: Mean of the estimated mean value of the body acceleration X-axial signal driven from gyroscope 180 numbers in the interval: -0.20580 ... 0.19270 )
+
+--tBodyGyro-mean()-Y: Mean of the estimated mean value of the body acceleration Y-axial signal driven from gyroscope 180 numbers in the interval: -0.20420 ... 0.02747)
+
+--tBodyGyro-mean()-Z: Mean of the estimated mean value of the body acceleration Z-axial signal driven from gyroscope 180 numbers in the interval: (-0.07245 ... 0.17910)
+
+--tBodyGyro-std()-X: Mean of the estimated standard deviation value of the body acceleration X-axial signal driven from gyroscope 180 numbers in the interval: (-0.9943 ... 0.2677)
+--tBodyGyro-std()-Y: Mean of the estimated standard deviation value of the body acceleration Y-axial signal driven from gyroscope 180 numbers in the interval: (-0.9942 .. 0.4765)
+
+--tBodyGyro-std()-Z: Mean of the estimated standard deviation value of the body acceleration Z-axial signal driven from gyroscope 180 numbers in the interval: -0.9855 ... 0.5649 )
+
+tBodyGyroJerk-mean()-X: Mean of the estimated mean value of the body linear  acceleration X-axial Jerk signal driven from gyroscope 180 numbers in th  interval:( -0.15720 ... -0.02209 )
+
+tBodyGyroJerk-mean()-Y:Mean of the estimated mean value of the body linear  acceleration Y-axial Jerk signal driven from gyroscope 180 numbers in th  interval:( -0.07681 ... -0.01320)
+
+tBodyGyroJerk-mean()-Z: Mean of the estimated mean value of the body linear  acceleration Z-axial Jerk signal driven from gyroscope 180 numbers in th  interval:( -0.092500 ... -0.006941)
+
+tBodyGyroJerk-std()-X: Mean of the estimated standard deviation value of the body linear  acceleration X-axial Jerk signal driven from gyroscope 180 numbers in th  interval:( -0.9965 ... 0.1791 )
+
+tBodyGyroJerk-std()-Y: Mean of the estimated standard deviation value of the body linear  acceleration Y-axial Jerk signal driven from gyroscope 180 numbers in th  interval:( -0.9971 ... 0.2959)
+tBodyGyroJerk-std()-Z: Mean of the estimated standard deviation value of the body linear  acceleration Y-axial Jerk signal driven from gyroscope 180 numbers in th  interval:( -0.9954 ... 0.1932 )
+
+tBodyAccMag-mean(): Mean of the estimated mean value of the body signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9865 ...0.6446 )
+
+tBodyAccMag-std(): Mean of the estimated standard deviation value of the body signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9865 ...0.4284 )
+
+tGravityAccMag-mean(): Mean of the estimated mean value of the gravity signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9865 ...0.6446  )
+
+tGravityAccMag-std(): Mean of the estimated standard deviation value of the gravity signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9865... 0.4284  )
+
+tBodyAccJerkMag-mean(): Mean of the estimated mean value of the Jerk signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9928 ... 0.4345 )
+
+tBodyAccJerkMag-std(): Mean of the estimated standard deviation value of the Jerk signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9946 ... 0.4506  )
+
+tBodyGyroMag-mean(): Mean of the estimated mean value of the signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9807 ... 0.4180)
+
+tBodyGyroMag-std(): Mean of the estimated standard deviation value of the signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9814 ... 0.3000 )
+
+tBodyGyroJerkMag-mean(): Mean of the mean deviation value of the Jerk signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.99730 ... 0.08758)
+
+tBodyGyroJerkMag-std(): Mean of the estimated standard deviation value of the Jekr signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9977 ... 0.2502 )
+
+fBodyAcc-mean()-X: Mean of the estimated mean value (FFT) of the body acceleration X-axial signal driven from accelerometer 180 numbers in the interval: (-0.9952 ... 0.5370)
+
+fBodyAcc-mean()-Y: : Mean of the estimated mean value (FFT) of the body acceleration Y-axial signal driven from accelerometer 180 numbers in the interval: (-0.98900 ... 0.52420 )
+
+fBodyAcc-mean()-Z: Mean of the estimated mean value (FFT) of the body acceleration Z-axial signal driven from accelerometer 180 numbers in the interval: (-0.9895 ... 0.2807 )
+
+fBodyAcc-std()-X: Mean of the estimated standard deviation value (FFT) of the body acceleration X-axial signal driven from accelerometer 180 numbers in the interval: (-0.9966 .... 0.6585  )
+
+fBodyAcc-std()-Y: Mean of the estimated standard deviation value (FFT) of the body acceleration Y-axial signal driven from accelerometer 180 numbers in the interval: (-0.99070 ... 0.56020)
+
+fBodyAcc-std()-Z: Mean of the estimated standard deviation value (FFT) of the body acceleration Z-axial signal driven from accelerometer 180 numbers in the interval: (-0.9872 ... 0.6871 )
+
+fBodyAcc-meanFreq()-X: Mean of the estimated mean frequency value (FFT) of the body acceleration X-axial signal driven from accelerometer 180 numbers in the interval: (-0.63590 ... 0.15910)
+
+fBodyAcc-meanFreq()-Y: Mean of the estimated mean frequency value (FFT) of the body acceleration Y-axial signal driven from accelerometer 180 numbers in the interval: (-0.379500 ... 0.466500 )
+
+fBodyAcc-meanFreq()-Z: Mean of the estimated mean frequency value (FFT) of the body acceleration Z-axial signal driven from accelerometer 180 numbers in the interval: (-0.52010 ... 0.40250 )
+
+fBodyAccJerk-mean()-X: Mean of the estimated mean value (FFT) of the body linear  acceleration X-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9946 ... 0.4743)
+
+fBodyAccJerk-mean()-Y: Mean of the estimated mean value (FFT) of the body linear  acceleration Y-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9894 ... 0.2767)
+
+fBodyAccJerk-mean()-Z: Mean of the estimated mean value (FFT) of the body linear  acceleration Z-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9920 ... 0.1578)
+
+fBodyAccJerk-std()-X: Mean of the estimated mean value (FFT) of the body linear  acceleration X-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9951 ... 0.4768 )
+
+fBodyAccJerk-std()-Y: Mean of the estimated mean value (FFT) of the body linear  acceleration Y-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.9905 ... 0.3498)
+
+fBodyAccJerk-std()-Z: Mean of the estimated mean value (FFT) of the body linear  acceleration Z-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.993100 ... -0.006236 )
+
+fBodyAccJerk-meanFreq()-X: Mean of the estimated mean frequency value (FFT) of the body linear  acceleration X-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.57600 ... 0.33140)
+
+fBodyAccJerk-meanFreq()-Y: Mean of the estimated mean frequency value (FFT) of the body linear  acceleration Y-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.60200 ... 0.19570)
+
+fBodyAccJerk-meanFreq()-Z: Mean of the estimated mean frequency value (FFT) of the body linear  acceleration Z-axial Jerk signal driven from accelerometer 180 numbers in th  interval:( -0.62760 ... 0.23010 )
+
+fBodyGyro-mean()-X: Mean of the estimated mean value (FFT) of the body acceleration X-axial signal driven from gyroscope 180 numbers in the interval: (-0.9931 ... 0.4750)
+
+fBodyGyro-mean()-Y: Mean of the estimated mean value (FFT) of the body acceleration Y-axial signal driven from gyroscope 180 numbers in the interval: (-0.9940 ... 0.3288 )
+
+fBodyGyro-mean()-Z: Mean of the estimated mean value (FFT) of the body acceleration Z-axial signal driven from gyroscope 180 numbers in the interval: (-0.9860 .. 0.4924 )
+
+fBodyGyro-std()-X: Mean of the estimated standard deviation value (FFT) of the body acceleration X-axial signal driven from gyroscope 180 numbers in the interval: (-0.9947 ... 0.1966 )
+
+fBodyGyro-std()-Y: Mean of the estimated standard deviation value (FFT) of the body acceleration Y-axial signal driven from gyroscope 180 numbers in the interval: (-0.9944 ... 0.6462)
+
+fBodyGyro-std()-Z: Mean of the estimated standard deviation value (FFT) of the body acceleration Z-axial signal driven from gyroscope 180 numbers in the interval: (-0.9867 ... 0.5225 )
+
+fBodyGyro-meanFreq()-X: Mean of the estimated mean frequency value (FFT) of the body acceleration X-axial signal driven from gyroscope 180 numbers in the interval: (-0.395800 ... 0.249200)
+
+fBodyGyro-meanFreq()-Y: Mean of the estimated mean frequency value (FFT) of the body acceleration Y-axial signal driven from gyroscope 180 numbers in the interval: (-0.66680 ... 0.27310 )
+
+fBodyGyro-meanFreq()-Z: Mean of the estimated mean frequency value (FFT) of the body acceleration Z-axial signal driven from gyroscope 180 numbers in the interval: (-0.50750 ... 0.37710 )
+
+fBodyAccMag-mean(): Mean of the estimated mean value (FFT) of the signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9868 ... 0.5866)
+
+fBodyAccMag-std(): Mean of the estimated standard deviation value (FFT) of the signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9876 ... 0.1787 )
+
+fBodyAccMag-meanFreq(): Mean of the estimated mean frequency value (FFT) of the signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.31230 ... 0.43580)
+
+fBodyBodyAccJerkMag-mean(): Mean of the estimated mean value (FFT)  of the Jerk signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9940 ... 0.5384 )
+
+fBodyBodyAccJerkMag-std(): Mean of the estimated standard deviation value (FFT)  of the signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.9944 ... 0.3163 )
+
+fBodyBodyAccJerkMag-meanFreq(): Mean of the estimated mean frequency value (FFT)  of the signal's magnitude driven from accelerometer 180 numbers in the interval: (-0.12520 ... 0.48810 )
+
+fBodyBodyGyroMag-mean(): Mean of the estimated mean value (FFT)  of the body signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9865 ... 0.2040)
+
+fBodyBodyGyroMag-std(): Mean of the estimated standard deviation value (FFT)  of the body signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9815 ... 0.2367)
+
+fBodyBodyGyroMag-meanFreq(): Mean of the estimated mean frequency value (FFT)  of the body signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.45660 ... 0.40950 )
+
+fBodyBodyGyroJerkMag-mean(): Mean of the estimated mean value (FFT)  of the Jerk signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9976 ... 0.1466)
+
+fBodyBodyGyroJerkMag-std(): Mean of the estimated standard deviation value (FFT)  of the Jerk  signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.9976 ... 0.2878 )
+
+
+fBodyBodyGyroJerkMag-meanFreq(): Mean of the estimated mean frequency value (FFT)  of the body signal's magnitude driven from gyroscope 180 numbers in the interval: (-0.18290 ... 0.42630 )
+
+
+
+
